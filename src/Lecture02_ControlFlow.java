@@ -11,21 +11,6 @@ public class Lecture02_ControlFlow {
 
     }
 
-        };
-        System.out.println(result);
-        //⑥ Explain-Back Prompt
-        //okay so first of all the arrow is less sytax required so it would decrease the eror percentage that could happen (talking here about th break syntax) and secondly its more elegant and has clearer visibilty which increases the clean code %
-        for(int i=10;i>0;i--){
-            System.out.println(i);
-        }
-        int u = 10;
-        while(u>0){
-            System.out.println(u);
-u--;
-        }
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-        }
 
         for (int i = 0; i <= 10; i++) {
             if (i % 2 != 0){
