@@ -13,8 +13,4 @@ public class Lecture02_ControlFlow {
 
 
 
-        }
-        //explain back priompt
-        //okay so the do while loop executes the first itieration whther the condition is flase or true it doesnt care so thats wehat gurantess that there will always be an iteration done
-    }
 }
