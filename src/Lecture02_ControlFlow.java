@@ -9,36 +9,7 @@ public class Lecture02_ControlFlow {
             case 10, 11, 12 -> "winter";
             default -> "else";
 
-
-        };
-        //②Parsons
-        int day = 2;
-        String name = switch (day) {
-            case 1 -> "Monday";
-            case 2 -> "Tuesday";
-            default -> "else";
-        };
-// Faded Build
-        int day2 = 2;
-        switch (day2) {
-            case 1:
-                System.out.println("Mon");
-                break;
-            case 2:
-                System.out.println("Tue");
-                break;
-            default:
-                System.out.println("Other");
-        }
-        ;
-//Buggy Code Hunt
-//okay so for the output it will be 2 and 3 cuz the student missed the break in case 2 and it would start from case 2 alll the way till case 3
-        //cold build
-        int day3 = 4;
-        String result = switch (day3) {
-            case 1, 2, 3, 4, 5 -> "weekday";
-            case 6, 7 -> "weekend";
-            default -> "else";
+    }
 
         };
         System.out.println(result);
