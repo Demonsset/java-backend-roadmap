@@ -12,25 +12,6 @@ public class Lecture02_ControlFlow {
     }
 
 
-        for (int i = 0; i <= 10; i++) {
-            if (i % 2 != 0){
-                continue;
-            }
-            System.out.println(i);
-        }
-        //int i = 0;
-        //while (i < 5) {
-        //    System.out.println(i);
-        //}
-        //this one right here has nopt stopping condition so it w8ill js keep prionting 0 till infinity cuz nothing is gonnna make the conditiuoon false so we need to change then i value
-        //cold build
-        int []students={23,54,60,100};
-        for(int scores :students){
-            if(scores>=60){
-                System.out.println("pass");}
-                else{
-                    System.out.println("fail");
-                }
 
         }
         //explain back priompt
